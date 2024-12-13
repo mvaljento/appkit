@@ -5,7 +5,7 @@ import { classMap } from 'lit/directives/class-map.js'
 import { ThemeUtil } from '../../utils/ThemeUtil'
 import styles from './styles.css'
 
-@customElement('w3m-button')
+@customElement('w3m-button-v2')
 export class W3mButton extends LitElement {
   public static styles = [ThemeUtil.globalCss, styles]
 

@@ -6,7 +6,7 @@ import styles from './styles.css'
 
 type Variant = 'primary' | 'secondary'
 
-@customElement('w3m-button-big')
+@customElement('w3m-button-big-v2')
 export class W3mButtonBig extends LitElement {
   public static styles = [ThemeUtil.globalCss, styles]
 
